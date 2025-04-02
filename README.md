@@ -18,7 +18,7 @@
 - [Stock rom file](https://samfw.com/firmware/SM-A127F)
 - [Rooted AP](#)
 - [Odin patched](https://forum.xda-developers.com/attachments/odin3-v3-14-1_3b_patched-zip.5158507/)
-- [TWRP][https://github.com/edward0181/android_device_samsung_a12/releases/download/twrp-3.6.1_11-1/twrp-3.6.1_11-1-a12.img]
+- [TWRP](https://github.com/edward0181/android_device_samsung_a12/releases/download/twrp-3.6.1_11-1/twrp-3.6.1_11-1-a12.img)
 
 ##### For GSI
 
