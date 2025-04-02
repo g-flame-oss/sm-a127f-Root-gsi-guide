@@ -2,7 +2,8 @@
 
 ##### A simple guide to root and install a GSI in the sm-a127f/ds devices and many more customizations
 
-> [!warning] > **I am not responsible for bricked or broken devices!** you are doing this out of your free will !!..
+> [!warning]
+> **I am not responsible for bricked or broken devices!** you are doing this out of your free will !!..
 > **All Data will be Lost** .. you are responsible for your data
 
 ### Perquisites
