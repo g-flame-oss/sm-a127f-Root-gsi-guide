@@ -233,6 +233,7 @@ For a better visual guide, check [THIS VIDEO TUTORIAL](https://www.youtube.com/w
    <div align="center">
      <p><i>Viola GSI install complete!!</i></p>
    </div>
+
 ---
 
 ## Additions
@@ -258,14 +259,14 @@ If you prefer using the latest version of Magisk instead of the pre-rooted AP:
 
 ### About
 
-This Guide was Created by [g-flame](https://github.com/g-flame) for the [g-flame-oss](https://github.com/g-flame-oss)
-Check out my other projects [here](https://github.com/orgs/g-flame-oss/repositories)
+This Guide was Created by **[g-flame](https://github.com/g-flame)** for the **[g-flame-oss](https://github.com/g-flame-oss)**
+Check out my other projects **[here](https://github.com/orgs/g-flame-oss/repositories)**
 please Star this guide if you like it or found it useful
 
 ## Credits
 
-[physwizz](https://github.com/physwizz) for the Kernel and Twrp and the scattered Guides for the Exynos 850 chipset and their [Telegram Group](https://t.me/a127f_res) for their Guidance..
+**[physwizz](https://github.com/physwizz)** for the Kernel and Twrp and the scattered Guides for the Exynos 850 chipset and their **[Telegram Group](https://t.me/a127f_res)** for their Guidance..
 
-This [Guide](<https://github.com/phhusson/treble_experimentations/wiki/Samsung-Galaxy-A12s-(Exynos-850)>) by [Mizumo-prjkt](https://github.com/Mizumo-prjkt) For the Super.img GSI creation
+This **[Guide](<https://github.com/phhusson/treble_experimentations/wiki/Samsung-Galaxy-A12s-(Exynos-850)>)** by **[Mizumo-prjkt](https://github.com/Mizumo-prjkt)** For the Super.img GSI creation
 
 </div>
