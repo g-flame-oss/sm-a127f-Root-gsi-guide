@@ -18,6 +18,7 @@
 - [Installing GSI](#installing-gsi)
   - [Flashing GSI](#step-2--flashing-the-gsi)
   - [TWRP Setup](#step-3--twrp-setup)
+- [Setting up GSI]()
 - [About](#about)
   - [Credits](#credits)
 
@@ -55,7 +56,8 @@
 
 ## Rooting
 
-> [!CAUTION] > **All data will be erased during this process. Back up any important data before proceeding.**
+> [!CAUTION]
+> **All data will be erased during this process. Back up any important data before proceeding.**
 
 For those who want the latest Magisk, go to the [Rooting AP Using Magisk](#rooting-ap-using-magisk) section.
 
@@ -233,6 +235,13 @@ For a better visual guide, check [THIS VIDEO TUTORIAL](https://www.youtube.com/w
    <div align="center">
      <p><i>Viola GSI install complete!!</i></p>
    </div>
+
+---
+
+### Setting up GSI
+
+> [!notice]
+> Coming Soon!
 
 ---
 
