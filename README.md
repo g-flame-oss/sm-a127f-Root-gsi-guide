@@ -41,15 +41,15 @@
 
 ### GSI Files
 
-| File                    | Download Link                                                                                                                                     |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Lineage OS              | [Download](#)(https://sourceforge.net/projects/g-flame-oss-file-host/files/sm-a127f/lineageos-20.tar/download) (Includes TWRP and patched VBmeta) |
-| Kernel                  | [Download](/files/kernel/kernel-perm-ksu.zip)                                                                                                     |
-| Magisk APK              | [Download](/files/apks/magisk.apk)                                                                                                                |
-| Touch Fix               | [Download](/files/magisk-modules/Touch-fix.zip)                                                                                                   |
-| GApps                   | [Download](/files/magisk-modules/MagiskGApps.zip)                                                                                                 |
-| Device ID               | [Download](/files/apks/deviceid.apk)                                                                                                              |
-| GSI Customization Files | [Download](/customization/)                                                                                                                       |
+| File                    | Download Link                                                                                                                                  |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Lineage OS              | [Download](https://sourceforge.net/projects/g-flame-oss-file-host/files/sm-a127f/lineageos-20.tar/download) (Includes TWRP and patched VBmeta) |
+| Kernel                  | [Download](/files/kernel/kernel-perm-ksu.zip)                                                                                                  |
+| Magisk APK              | [Download](/files/apks/magisk.apk)                                                                                                             |
+| Touch Fix               | [Download](/files/magisk-modules/Touch-fix.zip)                                                                                                |
+| GApps                   | [Download](/files/magisk-modules/MagiskGApps.zip)                                                                                              |
+| Device ID               | [Download](/files/apks/deviceid.apk)                                                                                                           |
+| GSI Customization Files | [Download](/customization/)                                                                                                                    |
 
 ---
 
