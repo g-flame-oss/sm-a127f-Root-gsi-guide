@@ -18,7 +18,7 @@
 - [Installing GSI](#installing-gsi)
   - [Flashing GSI](#step-2--flashing-the-gsi)
   - [TWRP Setup](#step-3--twrp-setup)
-- [Setting up GSI]()
+- [Setting up GSI](#setting-up-gsi)
 - [About](#about)
   - [Credits](#credits)
 
@@ -239,8 +239,8 @@ For a better visual guide, check [THIS VIDEO TUTORIAL](https://www.youtube.com/w
 
 ### Setting up GSI
 
-> [!tip]
-> Coming Soon! if you know what you are doing then download the files from [here](#gsi-files) and setup the gsi yourself rename the magisk.apk to magisk.zip and flash it in twrp then enable the gsi touch fix module to fix Touch not working
+> [!tip] > **Coming Soon!**
+> if you know what you are doing then download the files from **[here](#gsi-files)** and setup the gsi yourself **rename** the **magisk.apk** to **magisk.zip** and **flash it in TWRP** then **enable the gsi touch fix magisk module** to fix Touch not working
 
 ---
 
