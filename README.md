@@ -239,7 +239,8 @@ For a better visual guide, check [THIS VIDEO TUTORIAL](https://www.youtube.com/w
 
 ### Setting up GSI
 
-> [!tip] > **Coming Soon!**
+> [!tip]
+> **Coming Soon!**
 > if you know what you are doing then download the files from **[here](#gsi-files)** and setup the gsi yourself **rename** the **magisk.apk** to **magisk.zip** and **flash it in TWRP** then **enable the gsi touch fix magisk module** to fix Touch not working
 
 ---
