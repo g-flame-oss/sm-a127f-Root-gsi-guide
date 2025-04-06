@@ -2,9 +2,13 @@
 
 ##### A simple guide to root and install a GSI in the sm-a127f/ds devices and many more customizations
 
-> [!warning]
-> **I am not responsible for bricked or broken devices!** you are doing this out of your free will !!..
+> [!warning] > **I am not responsible for bricked or broken devices!** you are doing this out of your free will !!..
 > **All Data will be Lost** .. you are responsible for your data
+
+## Index
+
+- [**Rooting**](#rooting)
+-
 
 ### Perquisites
 
@@ -29,3 +33,25 @@
 - [Gapps](/files/magisk-modules/MagiskGApps.zip)
 - [device id](/files/apks/deviceid.apk)
 - [GSI customization files](/customization/)
+
+---
+
+### Rooting
+
+> [!Caution]
+> All data wil be erased
+
+**Step 1:** Unlocking the oem
+
+Go to settings > About phone > tap the build number 5 - 7 times until Developer options are unlocked
+Now go back to settings main page and scroll down until you see the developer options
+now click the OEM unlock option and shutdown your phone
+
+now go to your pc and download the files [HERE](#files)
+
+extract the odin file and open it
+
+now connect the usb cabel to the pc DON'T CONNECT TO PHONE YET
+
+now Press the vol up and vol down button simultaneously and connect the cabel to the phone
+<img src="./files/assets/device_unlock.jpg"  width="200"/>
