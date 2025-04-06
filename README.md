@@ -277,4 +277,6 @@ please Star this guide if you like it or found it useful
 
 This **[Guide](<https://github.com/phhusson/treble_experimentations/wiki/Samsung-Galaxy-A12s-(Exynos-850)>)** by **[Mizumo-prjkt](https://github.com/Mizumo-prjkt)** For the Super.img GSI creation
 
+[Go to top](#index)
+
 </div>
