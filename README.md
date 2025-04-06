@@ -56,8 +56,7 @@
 
 ## Rooting
 
-> [!CAUTION]
-> **All data will be erased during this process. Back up any important data before proceeding.**
+> [!CAUTION] > **All data will be erased during this process. Back up any important data before proceeding.**
 
 For those who want the latest Magisk, go to the [Rooting AP Using Magisk](#rooting-ap-using-magisk) section.
 
@@ -240,8 +239,8 @@ For a better visual guide, check [THIS VIDEO TUTORIAL](https://www.youtube.com/w
 
 ### Setting up GSI
 
-> [!notice]
-> Coming Soon!
+> [!tip]
+> Coming Soon! if you know what you are doing then download the files from [here](#gsi-files) and setup the gsi yourself rename the magisk.apk to magisk.zip and flash it in twrp then enable the gsi touch fix module to fix Touch not working
 
 ---
 
