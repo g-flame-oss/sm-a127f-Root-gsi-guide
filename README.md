@@ -2,96 +2,143 @@
 
 ##### A simple guide to root and install a GSI in the sm-a127f/ds devices and many more customizations
 
-> [!warning] > **I am not responsible for bricked or broken devices!** you are doing this out of your free will !!..
-> **All Data will be Lost** .. you are responsible for your data
+> [!warning]  
+> **I am not responsible for bricked or broken devices!** You are doing this out of your free will!!  
+> **All Data will be Lost** - You are responsible for your data
 
 ## Index
 
-- [**Rooting**](#rooting)
--
+- [Prerequisites](#prerequisites)
+- [Required Files](#files)
+- [Rooting Process](#rooting)
+  - [Step 1: Unlocking the OEM](#step-1-unlocking-the-oem)
+  - [Step 2: Flashing Rooted AP](#step-2-flashing-rooted-ap)
+- [Additional Guides](#additions)
+  - [Rooting AP Using Magisk](#rooting-ap-using-magisk)
 
-### Perquisites
+---
+
+## Prerequisites
 
 - A Samsung A12s device
 - A qualified USB cable
 - A PC preferably Windows
 - A lot of patience and a working brain
 
-### Files
+## Files
 
-- [Stock rom file](https://samfw.com/firmware/SM-A127F)
-- [Rooted AP](https://sourceforge.net/projects/sm-a127f-root-gsi-guide/files/files/Rooted-AP/AP-Rooted-stock.tar/download)
-- [Odin patched](https://forum.xda-developers.com/attachments/odin3-v3-14-1_3b_patched-zip.5158507/)
-- [TWRP](https://github.com/edward0181/android_device_samsung_a12/releases/download/twrp-3.6.1_11-1/twrp-3.6.1_11-1-a12.img)
+| File         | Download Link                                                                                                                  |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| Stock ROM    | [Download](https://samfw.com/firmware/SM-A127F)                                                                                |
+| Rooted AP    | [Download](https://sourceforge.net/projects/sm-a127f-root-gsi-guide/files/files/Rooted-AP/AP-Rooted-stock.tar/download)        |
+| Odin Patched | [Download](https://forum.xda-developers.com/attachments/odin3-v3-14-1_3b_patched-zip.5158507/)                                 |
+| TWRP         | [Download](https://github.com/edward0181/android_device_samsung_a12/releases/download/twrp-3.6.1_11-1/twrp-3.6.1_11-1-a12.img) |
 
-##### For GSI
+### GSI Files
 
-- [Lineage os](#)
-- [kernel](/files/kernel/kernel-perm-ksu.zip)
-- [magisk apk](/files/apks/magisk.apk)
-- [Touch Fix](/files/magisk-modules/Touch-fix.zip)
-- [Gapps](/files/magisk-modules/MagiskGApps.zip)
-- [device id](/files/apks/deviceid.apk)
-- [GSI customization files](/customization/)
+| File                    | Download Link                                     |
+| ----------------------- | ------------------------------------------------- |
+| Lineage OS              | [Download](#) (coming soon!)                      |
+| Kernel                  | [Download](/files/kernel/kernel-perm-ksu.zip)     |
+| Magisk APK              | [Download](/files/apks/magisk.apk)                |
+| Touch Fix               | [Download](/files/magisk-modules/Touch-fix.zip)   |
+| GApps                   | [Download](/files/magisk-modules/MagiskGApps.zip) |
+| Device ID               | [Download](/files/apks/deviceid.apk)              |
+| GSI Customization Files | [Download](/customization/)                       |
 
 ---
 
-### Rooting
+## Rooting
 
-> [!Caution]
-> All data wil be erased
+> [!CAUTION] > **All data will be erased during this process. Back up any important data before proceeding.**
 
-for the oes whow want he latest magisk go [here](#rooting-ap-using-magisk)
+For those who want the latest Magisk, go to the [Rooting AP Using Magisk](#rooting-ap-using-magisk) section.
 
-**Step 1:** Unlocking the oem
+### Step 1: Unlocking the OEM
 
-for a more better visual guide check [THIS](https://www.youtube.com/watch?v=8Y0BKZXChiA) video out
+For a better visual guide, check [THIS VIDEO TUTORIAL](https://www.youtube.com/watch?v=8Y0BKZXChiA).
 
-Go to settings > About phone > tap the build number 5 - 7 times until Developer options are unlocked
-Now go back to settings main page and scroll down until you see the developer options
-now click the OEM unlock option and shutdown your phone
+1. Go to **Settings** > **About phone** > tap the build number 5-7 times until Developer options are unlocked
+2. Go back to Settings main page and scroll down until you see **Developer options**
+3. Enable the **OEM unlock** option and shutdown your phone
+4. On your PC, download the files from the [Files section](#files)
+5. Extract the Odin file and open it
+6. Connect the USB cable to the PC (**_DO NOT CONNECT TO PHONE YET_**)
+7. Press the **Volume Up** and **Volume Down** buttons simultaneously and connect the cable to the phone
+8. Hold the **Volume Up** button when you see this screen:
 
-now go to your pc and download the files [HERE](#files)
+   <div align="center">
+     <img src="./files/assets/warning_svb.jpg" width="300" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
+     <p><i>Warning Screen</i></p>
+   </div>
 
-extract the odin file and open it
+9. Press **Volume Up** to fully unlock the OEM
 
-now connect the usb cabel to the pc DON'T CONNECT TO PHONE YET
+   <div align="center">
+     <img src="./files/assets/device_unlock.jpg" width="300" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
+     <p><i>Device Unlock Screen</i></p>
+   </div>
 
-now Press the vol up and vol down button simultaneously and connect the cabel to the phone
-now here hold the volume up button
-<img src="./files/assets/warning_svb.jpg"  width="200"/>
+10. Disconnect the cable from the phone
+11. Your phone will shutdown and reset itself. Power off your phone.
+12. Press the **Volume Up** and **Volume Down** buttons simultaneously and connect the cable to the phone
+13. Press **Volume Up** when prompted
 
-now here you press vol up to fully unlock the oem
-<img src="./files/assets/device_unlock.jpg"  width="200"/>
+    <div align="center">
+      <img src="./files/assets/warning.jpg" width="300" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
+      <p><i>Warning Prompt</i></p>
+    </div>
 
-disconnect the cabel form the phone
-now your phone will shutdown and reset it self now power off your phone and now Press the vol up and vol down button simultaneously and connect the cabel to the phone
+14. You will be greeted with this download mode screen:
 
-now here press vol up
-<img src="./files/assets/warning.jpg"  width="200"/>
+    <div align="center">
+      <img src="./files/assets/download.jpg" width="300" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
+      <p><i>Download Mode</i></p>
+    </div>
 
-and you will be greeted with this screen
-<img src="./files/assets/download.jpg"  width="200"/>
+### Step 2: Flashing Rooted AP
 
-now onto your pc
+1. Download the rooted AP from the [Files section](#files) or follow the [Rooting AP Using Magisk](#rooting-ap-using-magisk) guide
+2. Open Odin on your PC
+3. Apply these options in the Options tab:
 
-**Step 2:** Flashing rooted AP
+   <div align="center">
+     <img src="./files/assets/odin-options.jpg" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
+     <p><i>Odin Options Configuration</i></p>
+   </div>
 
-Download the rooted AP from [here](#files) or follow this guide [here](#rooting-ap-using-magisk)
+4. Select the AP button and browse for the downloaded .tar file:
 
-and open odin now
-and apply these options in the otpions tab
-<img src="./files/assets/odin-options.jpg"  width="200"/>
-<img src="./files/assets/odin-ap.jpg"  width="200"/>
-select the ap button and browse for the downloaded .tar file and click start
-<img src="./files/assets/odin-ap-selected.jpg"  width="200"/>
-now your phone should be rooted
+   <div align="center">
+     <img src="./files/assets/odin-ap.jpg" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
+     <p><i>Selecting AP File in Odin</i></p>
+   </div>
 
-## additions
+5. Click Start:
 
-#### rooting AP using magisk
+   <div align="center">
+     <img src="./files/assets/odin-ap-selected.jpg" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
+     <p><i>Odin with AP File Selected</i></p>
+   </div>
 
-download the magisk app form [here](https://github.com/topjohnwu/Magisk/releases)
+6. Wait for the process to complete. You'll see a "PASS!" message when successful.
+7. Your phone will reboot automatically and should now be rooted!
 
-and downlaod the stock firmware from [here](/files/apks/magisk.apk) according to your country type
-and extract it now into magisk and click install and select 'select and patch a file' now in the browser go to the extarted folder and select the AP file and let it do its job and downlaod the resultant .tar file to your pac and continue the [guide](#rooting)
+---
+
+## Additions
+
+### Rooting AP Using Magisk
+
+If you prefer using the latest version of Magisk instead of the pre-rooted AP:
+
+1. Download the Magisk app from [GitHub Releases](https://github.com/topjohnwu/Magisk/releases)
+2. Download the stock firmware [here](/files/apks/magisk.apk) according to your country type
+3. Extract the stock firmware to a folder on your PC
+4. Open Magisk app on another Android device (or emulator)
+5. Tap on the **Install** button
+6. Select **"Select and patch a file"**
+7. In the browser, navigate to the extracted folder and select the AP file
+8. Let Magisk patch the file (this may take several minutes)
+9. When complete, download the resultant .tar file to your PC
+10. Continue with the [Rooting guide's Step 2](#step-2-flashing-rooted-ap) using this patched file
