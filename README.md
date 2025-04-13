@@ -166,74 +166,55 @@ For a better visual guide, check [THIS VIDEO TUTORIAL](https://www.youtube.com/w
 5. click start
 6. Now Hold **Volume Down** & **Power Button** to Reboot your phone and when the screen goes blank hold the **Volume Up** and press the **Power Button** once and hold the **Volume Up** until TWRP boots up
 
-### Step 3 : Twrp setup
+### Step 3 : TWRP Setup
 
-1. open twrp and select **wipe**
-   <div align="center">
-     <img src="./files/assets/twrp/home.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
-     <p><i>Home</i></p>
-   </div>
-2. Select **Advanced wipe**
-   <div align="center">
-     <img src="./files/assets/twrp/wipe.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
-     <p><i>Wipe</i></p>
-   </div>
-3. select **Data** and click **Repair or change File system**
-   <div align="center">
-     <img src="./files/assets/twrp/data-select-wipe.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
-     <p><i>Data</i></p>
-   </div>
-4. select **Change File system**
-   <div align="center">
-     <img src="./files/assets/twrp/data-advanced.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
-     <p><i>EXT4</i></p>
-   </div>
-5. select **EXT4** and swipe
-   <div align="center">
-     <img src="./files/assets/twrp/format-ext4-confirm.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
-     <p><i>Confirm</i></p>
-   </div>
-6. Go **Home** and select **Advanced**
-   <div align="center">
-     <img src="./files/assets/twrp/advanced.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
-     <p><i>Advanced Options</i></p>
-   </div>
-7. Now select **Terminal** and the type the following **multidisabler && multidisabler** and hit enter
-   <div align="center">
-     <img src="./files/assets/twrp/terminal.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
-     <p><i>Terminal</i></p>
-   </div>
-8. Now go **home** and select **Wipe** > **Advanced wipe** > **Data** > **repair or change filesystem** > **change filesystem** > **F2fs** > **Swipe**
-   <div align="center">
-     <img src="./files/assets/twrp/format-f2fs-confirm.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
-     <p><i>Format to F2fs</i></p>
-   </div>
-9. Now go home and select **Install** and and **Select Storage** and choose **SD card** or **Micro SD** and select **kernel-perm-ksu.zip**
-   <div align="center">
-     <img src="./files/assets/twrp/install.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
-     <p><i>Install kernel</i></p>
-   </div>
-10. install the kernel **Swipe**
-<div align="center">
-  <img src="./files/assets/twrp/install-confirm.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
-  <p><i>Confirm install</i></p>
-</div>
+1. **Format Data Partition**
+   - Open TWRP and select **Wipe**
+   - Select **Advanced wipe**
+   - Choose **Data** and click **Repair or change File system**
+   - Select **Change File system** → **EXT4** and swipe to confirm
 
-11. Now go to **home** > **Wipe > **Advanced Wipe** > select **cache** & **Dalivic and Art cache** > **Swipe\*\*
-<div align="center">
-  <img src="./files/assets/twrp/data-select-cache.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
-  <p><i>Confirm install</i></p>
-</div>
+   <img src="./files/assets/twrp/home.png" width="180" style="border: 1px solid #ddd; border-radius: 4px; padding: 2px;"/>
+   <img src="./files/assets/twrp/wipe.png" width="180" style="border: 1px solid #ddd; border-radius: 4px; padding: 2px;"/>
+   <img src="./files/assets/twrp/data-select-wipe.png" width="180" style="border: 1px solid #ddd; border-radius: 4px; padding: 2px;"/>
 
-12. Now go **home** > **Reboot** > **System**
-<div align="center">
-  <img src="./files/assets/twrp/reboot.png" width="400" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin: 10px 0;"/>
-  <p><i>Confirm install</i></p>
-</div>
+2. **Run MultiDisabler**
+   - Go **Home** and select **Advanced**
+   - Select **Terminal** and type: **multidisabler && multidisabler**
+   - Press Enter
 
-   <div align="center">
-     <p><i>Viola GSI install complete!!</i></p>
-   </div>
+   <img src="./files/assets/twrp/advanced.png" width="180" style="border: 1px solid #ddd; border-radius: 4px; padding: 2px;"/>
+   <img src="./files/assets/twrp/terminal.png" width="180" style="border: 1px solid #ddd; border-radius: 4px; padding: 2px;"/>
+
+3. **Convert to F2FS File System**
+   - Go **Home** → **Wipe** → **Advanced wipe**
+   - Select **Data** → **Repair or change filesystem**
+   - Choose **Change filesystem** → **F2fs** and swipe to confirm
+
+   <img src="./files/assets/twrp/data-advanced.png" width="180" style="border: 1px solid #ddd; border-radius: 4px; padding: 2px;"/>
+   <img src="./files/assets/twrp/format-f2fs-confirm.png" width="180" style="border: 1px solid #ddd; border-radius: 4px; padding: 2px;"/>
+
+4. **Install Custom Kernel**
+   - Go **Home** → **Install**
+   - Select **SD card** as storage
+   - Navigate to and select **kernel-perm-ksu.zip**
+   - Swipe to install
+
+   <img src="./files/assets/twrp/install.png" width="180" style="border: 1px solid #ddd; border-radius: 4px; padding: 2px;"/>
+   <img src="./files/assets/twrp/install-confirm.png" width="180" style="border: 1px solid #ddd; border-radius: 4px; padding: 2px;"/>
+
+5. **Clear Caches**
+   - Go **Home** → **Wipe** → **Advanced Wipe**
+   - Select **Cache** & **Dalvik and Art cache**
+   - Swipe to wipe
+
+   <img src="./files/assets/twrp/data-select-cache.png" width="180" style="border: 1px solid #ddd; border-radius: 4px; padding: 2px;"/>
+
+6. **Complete Installation**
+   - Go **Home** → **Reboot** → **System**
+   - Your custom ROM is now installed!
+
+   <img src="./files/assets/twrp/reboot.png" width="180" style="border: 1px solid #ddd; border-radius: 4px; padding: 2px;"/>
 
 ---
 
